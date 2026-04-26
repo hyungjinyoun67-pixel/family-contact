@@ -1,0 +1,18 @@
+// ✅ Firebase 설정 - 본인 Firebase 콘솔에서 복사해서 붙여넣으세요
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+
+const firebaseConfig = {
+   apiKey: "AIzaSyAqdr4XEJwNeqwvsLT8zcZIbkIVlcOQL1A",
+  authDomain: "family-contact-74912.firebaseapp.com",
+  databaseURL:       "https://family-contact-74912-default-rtdb.asia-southeast1.firebasedatabase.app
+",
+  projectId: "family-contact-74912",
+  storageBucket: "family-contact-74912.firebasestorage.app",
+  messagingSenderId: "878026345823",
+  appId: "1:878026345823:web:4a151d675c4ab2a2dbfaea"
+};
+
+const app = initializeApp(firebaseConfig);
+export const db = getDatabase(app);
+
