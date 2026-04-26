@@ -1,4 +1,3 @@
-// ✅ Firebase 설정 - 본인 Firebase 콘솔에서 복사해서 붙여넣으세요
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
