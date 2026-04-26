@@ -4,7 +4,7 @@ import { getDatabase } from "firebase/database";
 const firebaseConfig = {
    apiKey: "AIzaSyAqdr4XEJwNeqwvsLT8zcZIbkIVlcOQL1A",
   authDomain: "family-contact-74912.firebaseapp.com",
-  databaseURL:       "https://family-contact-74912-default-rtdb.asia-southeast1.firebasedatabase.app"
+  databaseURL:       "https://family-contact-74912-default-rtdb.asia-southeast1.firebasedatabase.app",
 ",
   projectId: "family-contact-74912",
   storageBucket: "family-contact-74912.firebasestorage.app",
